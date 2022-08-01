@@ -1,0 +1,24 @@
+Event	ID	Name			Wwise Object Path	Notes
+	94063951	Play_Ambiente			\Default Work Unit\Play_Ambiente	
+	190234274	Play_Phone			\Default Work Unit\Play_Phone	
+	2122995345	OpenDoor			\Default Work Unit\OpenDoor	
+	2989581304	OnStepsSound			\Default Work Unit\OnStepsSound	
+	4090348933	Play_Motor_Auto			\Default Work Unit\Play_Motor_Auto	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	79121207	Door	D:\Facu\tercer cuatrimestre\AudioYSonido\FinalProduccionAudioySonido\FinalProduccionAudioySonido_WwiseProject\.cache\Windows\SFX\Door_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door		119344
+	263119246	Concrete_001	D:\Facu\tercer cuatrimestre\AudioYSonido\FinalProduccionAudioySonido\FinalProduccionAudioySonido_WwiseProject\.cache\Windows\SFX\Steps\Concrete.001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Concrete_001		29546
+	381421928	MusicaAmbiente	D:\Facu\tercer cuatrimestre\AudioYSonido\FinalProduccionAudioySonido\FinalProduccionAudioySonido_WwiseProject\.cache\Windows\SFX\Ambiente_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\MusicaAmbiente		1764064
+	449041605	Phone	D:\Facu\tercer cuatrimestre\AudioYSonido\FinalProduccionAudioySonido\FinalProduccionAudioySonido_WwiseProject\.cache\Windows\SFX\Phone_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Phone		1411264
+	543867304	Concrete_010	D:\Facu\tercer cuatrimestre\AudioYSonido\FinalProduccionAudioySonido\FinalProduccionAudioySonido_WwiseProject\.cache\Windows\SFX\Steps\Concrete.010_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Concrete_010		29546
+	581051097	Motor Auto	D:\Facu\tercer cuatrimestre\AudioYSonido\FinalProduccionAudioySonido\FinalProduccionAudioySonido_WwiseProject\.cache\Windows\SFX\Motor Auto_73750A02.wem		\Actor-Mixer Hierarchy\Default Work Unit\Motor Auto		9087660
+	673437634	Concrete_005	D:\Facu\tercer cuatrimestre\AudioYSonido\FinalProduccionAudioySonido\FinalProduccionAudioySonido_WwiseProject\.cache\Windows\SFX\Steps\Concrete.005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Concrete_005		29546
+	689318569	Concrete_002	D:\Facu\tercer cuatrimestre\AudioYSonido\FinalProduccionAudioySonido\FinalProduccionAudioySonido_WwiseProject\.cache\Windows\SFX\Steps\Concrete.002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Concrete_002		29546
+	966867009	Concrete_004	D:\Facu\tercer cuatrimestre\AudioYSonido\FinalProduccionAudioySonido\FinalProduccionAudioySonido_WwiseProject\.cache\Windows\SFX\Steps\Concrete.004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Concrete_004		29546
+	1003777110	Concrete_011	D:\Facu\tercer cuatrimestre\AudioYSonido\FinalProduccionAudioySonido\FinalProduccionAudioySonido_WwiseProject\.cache\Windows\SFX\Steps\Concrete.011_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Concrete_011		29546
+	1009358172	Concrete_003	D:\Facu\tercer cuatrimestre\AudioYSonido\FinalProduccionAudioySonido\FinalProduccionAudioySonido_WwiseProject\.cache\Windows\SFX\Steps\Concrete.003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Concrete_003		29546
+	1018531452	Concrete_006	D:\Facu\tercer cuatrimestre\AudioYSonido\FinalProduccionAudioySonido\FinalProduccionAudioySonido_WwiseProject\.cache\Windows\SFX\Steps\Concrete.006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Concrete_006		29546
+	1020903017	Concrete_008	D:\Facu\tercer cuatrimestre\AudioYSonido\FinalProduccionAudioySonido\FinalProduccionAudioySonido_WwiseProject\.cache\Windows\SFX\Steps\Concrete.008_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Concrete_008		29546
+	1029861159	Concrete_007	D:\Facu\tercer cuatrimestre\AudioYSonido\FinalProduccionAudioySonido\FinalProduccionAudioySonido_WwiseProject\.cache\Windows\SFX\Steps\Concrete.007_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Concrete_007		29546
+	1052690171	Concrete_009	D:\Facu\tercer cuatrimestre\AudioYSonido\FinalProduccionAudioySonido\FinalProduccionAudioySonido_WwiseProject\.cache\Windows\SFX\Steps\Concrete.009_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Steps\Concrete_009		29546
+

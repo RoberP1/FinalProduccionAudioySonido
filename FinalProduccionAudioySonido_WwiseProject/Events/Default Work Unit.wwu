@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{479D471A-815A-485C-8D41-6AF4CE56551E}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{479D471A-815A-485C-8D41-6AF4CE56551E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Ambiente" ID="{710602FF-8DA9-496B-9A2E-A0D99B4E0993}">
+					<ChildrenList>
+						<Action Name="" ID="{F60C1CF3-4A44-4EA9-8B9D-AAF2D77F1936}" ShortID="386607594">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicaAmbiente" ID="{50258A84-725C-4D00-BAF3-6BCBF23F2C7C}" WorkUnitID="{24FC2DDB-246A-42CF-96D5-A79939BC0009}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Motor_Auto" ID="{186669C7-48C4-4566-9380-0075A19A721C}">
+					<ChildrenList>
+						<Action Name="" ID="{7229DDDF-2F5E-4389-B23C-5D2E193B66CE}" ShortID="959626644">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Motor Auto" ID="{0B7636AF-9A71-44B0-8373-9E0FF321A597}" WorkUnitID="{24FC2DDB-246A-42CF-96D5-A79939BC0009}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Phone" ID="{9F91C2F8-FC69-498D-8091-C495AC8ED9E2}">
+					<ChildrenList>
+						<Action Name="" ID="{5AAC4858-957A-4416-8919-4090742F7B2B}" ShortID="348156681">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Phone" ID="{559FB586-A464-472E-81F6-4E8581D09C85}" WorkUnitID="{24FC2DDB-246A-42CF-96D5-A79939BC0009}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OpenDoor" ID="{FAC6B72D-A18E-4397-81FA-CDC535BA796B}">
+					<ChildrenList>
+						<Action Name="" ID="{EC17E778-7348-4A0A-BB7F-3403E3505266}" ShortID="830695432">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door" ID="{064E3C11-D76F-4443-9C6D-C7F408C159D2}" WorkUnitID="{24FC2DDB-246A-42CF-96D5-A79939BC0009}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OnStepsSound" ID="{78628023-A197-4CB5-A3D9-6C3516599549}">
+					<ChildrenList>
+						<Action Name="" ID="{F4D93A8D-6CD8-450E-B59A-D666B84F97D3}" ShortID="670567030">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Steps" ID="{74531380-48DA-4B34-B34E-6BEC71BF140C}" WorkUnitID="{24FC2DDB-246A-42CF-96D5-A79939BC0009}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

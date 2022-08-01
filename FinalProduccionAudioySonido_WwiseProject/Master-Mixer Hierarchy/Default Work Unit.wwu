@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AEF46EB9-C45F-4C66-81B2-AE9AFA0CC590}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{AEF46EB9-C45F-4C66-81B2-AE9AFA0CC590}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{D2E47C67-0197-4916-8A04-F0F8C23A8642}" ShortID="754969083">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="MainVolume" ID="{759C2549-3028-4C54-B2D1-AB7A766E9148}" WorkUnitID="{020BFC27-DA6B-4EA9-9743-829906BD06D6}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{BD9FB179-244B-4B4D-87EC-3C6BF845CCCE}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{5F65EDB3-880A-4018-982E-4CBB7BDDCCFB}" WorkUnitID="{F38801A8-10B9-46AE-A099-D45947F6EC12}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Ambiente" ID="{D88302C9-88BC-45AD-878C-FCD211EF2486}">
+							<PropertyList>
+								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{2C500C1E-9517-449F-8C2B-86525C482A46}" ShortID="759013786">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="SFXVolume" ID="{F798C40A-707C-4105-9190-264FE1995F71}" WorkUnitID="{020BFC27-DA6B-4EA9-9743-829906BD06D6}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{787B3B92-F929-4CA1-A9DC-0C8A815BFB9B}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Ambisonics" ID="{D7B294A3-3976-4ECC-96EF-A7A3711BCC97}">
+									<PropertyList>
+										<Property Name="BusChannelConfig" Type="int32">
+											<ValueList>
+												<Value>528</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0">
+											<Custom>
+												<Effect Name="Resonance Audio Renderer (Custom)" ID="{605E57D4-560C-49C4-B047-13607D38DE4F}" ShortID="981357738" PluginName="Resonance Audio Renderer" CompanyID="272" PluginID="100" PluginType="3"/>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Musica" ID="{3CECD7B5-FABD-4022-9620-C406C451A5D9}">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{E57B0E0C-F409-47BF-B474-8A6ECE48CEB5}" ShortID="35691860">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MusicVolume" ID="{D15115DE-FD1B-4F8A-AEA4-D1B8D80EB79A}" WorkUnitID="{020BFC27-DA6B-4EA9-9743-829906BD06D6}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{A8A2EABC-6469-41AE-B392-BA24A40EC736}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ObjectLists/>
+						</Bus>
+						<AuxBus Name="Reverb" ID="{B1EAC8D3-57DB-4CCB-9B78-D4195D6B8AE9}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Matrix Reverb" CompanyID="0" PluginID="115" PluginType="3">
+									<ObjectRef Name="Small_Tiled_Room1" ID="{41EEE722-3009-4B3F-8820-F414623783E3}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</AuxBus>
+					</ChildrenList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

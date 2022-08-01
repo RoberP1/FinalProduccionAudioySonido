@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1725CF86-AD2A-4DD3-A4F0-CCDC4736AB4C}" SchemaVersion="103">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{1725CF86-AD2A-4DD3-A4F0-CCDC4736AB4C}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Ambisonics" ID="{9802027C-175D-4679-A780-B232D1CBB16D}" PluginName="Resonance Audio Renderer" CompanyID="272" PluginID="100" PluginType="3"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\Facu\tercer cuatrimestre\AudioYSonido\FinalProduccionAudioySonido\FinalProduccionAudioySonido_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Facu\tercer cuatrimestre\AudioYSonido\FinalProduccionAudioySonido\FinalProduccionAudioySonido_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Facu\tercer cuatrimestre\AudioYSonido\FinalProduccionAudioySonido\FinalProduccionAudioySonido_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Facu\tercer cuatrimestre\AudioYSonido\FinalProduccionAudioySonido\FinalProduccionAudioySonido_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="2572162073">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="988953028" Name="SFXVolume" ObjectPath="\Game Parameters\Default Work Unit\SFXVolume"/>
+				<GameParameter Id="1843561328" Name="MainVolume" ObjectPath="\Game Parameters\Default Work Unit\MainVolume"/>
+				<GameParameter Id="2346531308" Name="MusicVolume" ObjectPath="\Game Parameters\Default Work Unit\MusicVolume"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="4068526842">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2989581304" Name="OnStepsSound" ObjectPath="\Events\Default Work Unit\OnStepsSound" DurationType="OneShot" DurationMin="0.307104" DurationMax="0.307104">
+					<IncludedMemoryFiles>
+						<File Id="263119246" Language="SFX">
+							<ShortName>Steps\Concrete.001.wav</ShortName>
+							<Path>SFX\Steps\Concrete.001_10C4C929.wem</Path>
+						</File>
+						<File Id="543867304" Language="SFX">
+							<ShortName>Steps\Concrete.010.wav</ShortName>
+							<Path>SFX\Steps\Concrete.010_10C4C929.wem</Path>
+						</File>
+						<File Id="673437634" Language="SFX">
+							<ShortName>Steps\Concrete.005.wav</ShortName>
+							<Path>SFX\Steps\Concrete.005_10C4C929.wem</Path>
+						</File>
+						<File Id="689318569" Language="SFX">
+							<ShortName>Steps\Concrete.002.wav</ShortName>
+							<Path>SFX\Steps\Concrete.002_10C4C929.wem</Path>
+						</File>
+						<File Id="966867009" Language="SFX">
+							<ShortName>Steps\Concrete.004.wav</ShortName>
+							<Path>SFX\Steps\Concrete.004_10C4C929.wem</Path>
+						</File>
+						<File Id="1003777110" Language="SFX">
+							<ShortName>Steps\Concrete.011.wav</ShortName>
+							<Path>SFX\Steps\Concrete.011_10C4C929.wem</Path>
+						</File>
+						<File Id="1009358172" Language="SFX">
+							<ShortName>Steps\Concrete.003.wav</ShortName>
+							<Path>SFX\Steps\Concrete.003_10C4C929.wem</Path>
+						</File>
+						<File Id="1018531452" Language="SFX">
+							<ShortName>Steps\Concrete.006.wav</ShortName>
+							<Path>SFX\Steps\Concrete.006_10C4C929.wem</Path>
+						</File>
+						<File Id="1020903017" Language="SFX">
+							<ShortName>Steps\Concrete.008.wav</ShortName>
+							<Path>SFX\Steps\Concrete.008_10C4C929.wem</Path>
+						</File>
+						<File Id="1029861159" Language="SFX">
+							<ShortName>Steps\Concrete.007.wav</ShortName>
+							<Path>SFX\Steps\Concrete.007_10C4C929.wem</Path>
+						</File>
+						<File Id="1052690171" Language="SFX">
+							<ShortName>Steps\Concrete.009.wav</ShortName>
+							<Path>SFX\Steps\Concrete.009_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2122995345" Name="OpenDoor" ObjectPath="\Events\Default Work Unit\OpenDoor" MaxAttenuation="5." DurationType="OneShot" DurationMin="0.67619" DurationMax="0.67619">
+					<IncludedMemoryFiles>
+						<File Id="79121207" Language="SFX">
+							<ShortName>Door.wav</ShortName>
+							<Path>SFX\Door_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="94063951" Name="Play_Ambiente" ObjectPath="\Events\Default Work Unit\Play_Ambiente" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="381421928" Language="SFX">
+							<ShortName>Ambiente.wav</ShortName>
+							<Path>SFX\Ambiente_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4090348933" Name="Play_Motor_Auto" ObjectPath="\Events\Default Work Unit\Play_Motor_Auto" MaxAttenuation="25." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="581051097" Language="SFX">
+							<ShortName>Motor Auto.wav</ShortName>
+							<Path>SFX\Motor Auto_73750A02.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="190234274" Name="Play_Phone" ObjectPath="\Events\Default Work Unit\Play_Phone" MaxAttenuation="20." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="449041605" Language="SFX">
+							<ShortName>Phone.wav</ShortName>
+							<Path>SFX\Phone_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
